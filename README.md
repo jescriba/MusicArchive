@@ -28,6 +28,11 @@ you can host this for _cheap_. Free heroku web app + a few cents a month on S3 (
 
 TODO Detailed deployment/setup instructions w/ pics/videos
 
+TODO Add deploy to heroku
+
+https://devcenter.heroku.com/articles/heroku-button
+https://devcenter.heroku.com/articles/app-json-schema
+
 ## Web
 
 Web frontend and backend for setting up Music Archive API
