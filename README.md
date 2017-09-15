@@ -63,8 +63,8 @@ Ex:
 API endpoints:
 
 ```
-/artists     # List Artists
-/artists/:id # Get Artist Info By Id
+GET /artists     # List Artists
+GET /artists/:id # Get Artist Info By Id
 ```
 
 **Albums**
@@ -74,7 +74,7 @@ TODO
 API endpoints:
 
 ```
-/albums
+GET /albums
 ```
 
 **Songs**
@@ -109,8 +109,8 @@ Ex:
 API endpoints:
 
 ```
-/songs     # List Songs
-/songs/:id # Get Song Info By Id
+GET /songs     # List Songs
+GET /songs/:id # Get Song Info By Id
 ```
 
 **Associations**
@@ -120,7 +120,7 @@ _Artist_ has many _Songs_
 Additional endpoint: 
 
 ```
-/artists/:id/songs # List Artist :id 's Songs
+GET /artists/:id/songs # List Artist :id 's Songs
 ```
 
 _Artist_ has many _Albums_
@@ -132,6 +132,10 @@ _Song_ has many _Artists_
 API endpoints:
 
 ```
+GET /search # Get Web Frontend for Searcing
+GET /search?song-name=test&artist-name=test&album-id=10 # Basic search
+GET /search?song-name=test&artist-name=test&album-name=test # Basic search
+GET /search?&recorded-start=10-10-2016&recorded-end=11-11-2017 # Time Range search
 ```
 
 ### Demo
