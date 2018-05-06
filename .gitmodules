@@ -1,6 +1,6 @@
 [submodule "MusicArchive-iOS"]
 	path = MusicArchive-iOS
-	url = git@github.com:jescriba/MusicArchive-iOS.git
+	url = https://github.com/jescriba/MusicArchive-iOS.git
 [submodule "MusicArchive-Web"]
 	path = MusicArchive-Web
-	url = git@github.com:jescriba/MusicArchive-Web.git
+	url = https://github.com/jescriba/MusicArchive-Web.git
