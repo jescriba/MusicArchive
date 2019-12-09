@@ -4,3 +4,6 @@
 [submodule "MusicArchive-Web"]
 	path = MusicArchive-Web
 	url = https://github.com/jescriba/MusicArchive-Web.git
+[submodule "MusicArchive-SwiftUI"]
+	path = MusicArchive-SwiftUI
+	url = git@github.com:jescriba/MusicArchive-SwiftUI.git
